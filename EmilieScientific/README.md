@@ -1,15 +1,30 @@
 # Intro
 
-This is an automated testing excercise for Emilie Scientific.
-I focused on front-end testing only.
+This is an automated testing excercise for Emilie Scientific. I focused on front-end testing only.
+1. The “application” under test is the google form at https://forms.gle/4U478yAnzxMeXrdp8
+2. Create an automated test suite that validates and exercises the user stories listed below.
+3. Tests can use the language / test runner / framework of your choice. Use of a BDD framework
+such as Cucumber is encouraged but not required.
 
+## Instalation
+1. Install Homebrew: https://brew.sh/
+2. Install Java 8.0: brew cask install java8
+3. Install and configure Maven in your bash_profile or brew install mvn
+4. Install IntelliJ: https://www.jetbrains.com/idea/download/#section=mac or brew cask install intellij-idea
+5. Install node: brew install node
+6. Install Selenium WebDriver: https://www.seleniumhq.org/download/ of brew install selenium-server-standalone
+7. Install ChromeDriver: http://chromedriver.chromium.org/downloads
+8. Clone this repo
+9. Import this project in your intelliJ idea as Maven project
 
-## Discription
+##Usage
+1. Open terminal
+2. CD to the project directory:
+3. Goto config.properties file and make required changes before running the test
+4. Enter: mvn clean test to run the test (Note: you can run individual tags using this command mvn test -Dcucumber.options="--tags @positive-submission")
+5. Enter: mvn site to generate the HTML Allure report
+6. Goto this path in project directory to view the report /target/site/allure-maven-plugin/index.html
 
-● The “application” under test is the google form at https://forms.gle/4U478yAnzxMeXrdp8
-● Create an automated test suite that validates and exercises the user stories listed below.
-● Tests can use the language / test runner / framework of your choice. Use of a BDD
-framework such as Cucumber is encouraged but not required.
 
 ## Requirements
 
@@ -37,7 +52,8 @@ Email format errors:
 
 ## Contributing
 
-1. Create your feature branch: `git checkout -b my-new-feature`
+1. Fork it.
+2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -am 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :)
