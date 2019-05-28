@@ -17,7 +17,7 @@ such as Cucumber is encouraged but not required.
 8. Clone this repo
 9. Import this project in your intelliJ idea as Maven project
 
-##Usage
+## Usage
 1. Open terminal
 2. CD to the project directory:
 3. Goto config.properties file and make required changes before running the test
