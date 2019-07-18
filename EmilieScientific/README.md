@@ -1,6 +1,6 @@
 # Intro
 
-This is an automated testing excercise for Emilie Scientific. I focused on front-end testing only.
+This is an automated testing excercise. I focused on front-end testing only.
 1. The “application” under test is the google form at https://forms.gle/4U478yAnzxMeXrdp8
 2. Create an automated test suite that validates and exercises the user stories listed below.
 3. Tests can use the language / test runner / framework of your choice. Use of a BDD framework
